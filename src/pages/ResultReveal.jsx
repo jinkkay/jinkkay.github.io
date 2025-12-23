@@ -11,7 +11,8 @@ function ResultReveal({ results, onFinish, onHighRankReveal }) {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [showSummary, setShowSummary] = useState(false);
     const [showShippingModal, setShowShippingModal] = useState(false);
-    const HIGH_COLOR = '#771f07'; // 원하는 컬러
+    const HIGH_COLOR = '#e26798'; // 원하는 컬러
+    
 
     const isHighRank = (item) => item.rank === 1 || item.rank === 2;
 
